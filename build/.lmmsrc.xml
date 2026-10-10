@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-config-file>
+<lmms version="1.3.0-alpha.2.14+a2f57e7" configversion="3">
+  <MidiAlsaRaw device="default"/>
+  <MidiJack device="lmms"/>
+  <MidiSndio device=""/>
+  <Midialsaseq device="default"/>
+  <app configured="1" nommpz="0" disablebackup="0" language="en" loopmarkermode="dual" openlastproject="0" sololegacybehavior="0"/>
+  <audioalsa channels="2" device="null"/>
+  <audioengine audiodev="SDL (Simple DirectMedia Layer)" mididev="ALSA-Sequencer (Advanced Linux Sound Architecture)" sanitizemix="1" framesperaudiobuffer="256" samplerate="44100"/>
+  <audiojack input1="" output1="" input2="" output2="" clientname="lmms"/>
+  <audiopa channels="2" device="default"/>
+  <audioportaudio outputchannels="0" inputchannels="0" inputdevice="" outputdevice="" backend=""/>
+  <audiosdl inputdevice="" device=""/>
+  <audiosndio channels="2" device=""/>
+  <midi autoquantize="0" midiautoassign="none"/>
+  <paths ladspadir="/home/ravic/Documents/lmms/plugins/ladspa/" sf2dir="/home/ravic/Documents/lmms/samples/soundfonts/" workingdir="/home/ravic/Documents/lmms/" backgroundtheme="" defaultsf2="" gigdir="/home/ravic/Documents/lmms/samples/gig/" theme="data:/themes/default/" vstdir="/home/ravic/Documents/lmms/plugins/vst/"/>
+  <tooltips disabled="0"/>
+  <ui smoothscroll="0" pianorollnotelength="0" showfaderticks="0" animateafp="1" enableautosave="1" vstembedmethod="qt" songeditorsnap="5" mixerchanneldeletionwarning="1" oneinstrumenttrackwindow="0" pianorollzoom="2" compacttrackbuttons="0" autoscroll="stepped" enablerunningautosave="0" detachbehavior="show" pianorollzoomvertical="2" pianorollsnap="0" saveinterval="2" songeditorzoom="151" displaywaveform="0" pianorollquantization="5" vstalwaysontop="0" letpreviewsfinish="0" trackdeletionwarning="1" sidebaronright="0" disableautoquit="1" printnotelabels="0"/>
+  <recentfiles>
+    <file path="data:/projects/templates/default.mpt"/>
+  </recentfiles>
+  <favoriteitems/>
+</lmms>

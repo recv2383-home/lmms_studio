@@ -1,0 +1,7 @@
+<RCC>
+	<qresource prefix="artwork/vsteffect">
+		<file alias="controls.svg">/home/ravic/Git/lmms/plugins/VstEffect/controls.svg</file>
+		<file alias="controls_active.svg">/home/ravic/Git/lmms/plugins/VstEffect/controls_active.svg</file>
+		<file alias="logo.svg">/home/ravic/Git/lmms/plugins/VstEffect/logo.svg</file>
+	</qresource>
+</RCC>

@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/ravic/Git/lmms/build/plugins/VstBase/NativeLinuxRemoteVstPlugin64-prefix/src/NativeLinuxRemoteVstPlugin64-build/cmake_install.cmake",
+		"/home/ravic/Git/lmms/build/plugins/VstBase/NativeLinuxRemoteVstPlugin64-prefix/src/NativeLinuxRemoteVstPlugin64-build/common/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

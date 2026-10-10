@@ -1,0 +1,14 @@
+<RCC>
+	<qresource prefix="artwork/sf2player">
+		<file alias="artwork.png">/home/ravic/Git/lmms/plugins/Sf2Player/artwork.png</file>
+		<file alias="chorus_off.png">/home/ravic/Git/lmms/plugins/Sf2Player/chorus_off.png</file>
+		<file alias="chorus_on.png">/home/ravic/Git/lmms/plugins/Sf2Player/chorus_on.png</file>
+		<file alias="fileselect_off.png">/home/ravic/Git/lmms/plugins/Sf2Player/fileselect_off.png</file>
+		<file alias="fileselect_on.png">/home/ravic/Git/lmms/plugins/Sf2Player/fileselect_on.png</file>
+		<file alias="logo.png">/home/ravic/Git/lmms/plugins/Sf2Player/logo.png</file>
+		<file alias="patches_off.png">/home/ravic/Git/lmms/plugins/Sf2Player/patches_off.png</file>
+		<file alias="patches_on.png">/home/ravic/Git/lmms/plugins/Sf2Player/patches_on.png</file>
+		<file alias="reverb_off.png">/home/ravic/Git/lmms/plugins/Sf2Player/reverb_off.png</file>
+		<file alias="reverb_on.png">/home/ravic/Git/lmms/plugins/Sf2Player/reverb_on.png</file>
+	</qresource>
+</RCC>

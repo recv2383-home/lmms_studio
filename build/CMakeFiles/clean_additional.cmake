@@ -1,0 +1,43 @@
+# Additional clean files
+cmake_minimum_required(VERSION 3.16)
+
+if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "RelWithDebInfo")
+  file(REMOVE_RECURSE
+  "plugins/Sf2Player/CMakeFiles/sf2player_autogen.dir/AutogenUsed.txt"
+  "plugins/Sf2Player/CMakeFiles/sf2player_autogen.dir/ParseCache.txt"
+  "plugins/Sf2Player/sf2player_autogen"
+  "src/3rdparty/qt5-x11embed/CMakeFiles/qx11embedcontainer_autogen.dir/AutogenUsed.txt"
+  "src/3rdparty/qt5-x11embed/CMakeFiles/qx11embedcontainer_autogen.dir/ParseCache.txt"
+  "src/3rdparty/qt5-x11embed/qx11embedcontainer_autogen"
+  "src/CMakeFiles/lmms_autogen.dir/AutogenUsed.txt"
+  "src/CMakeFiles/lmms_autogen.dir/ParseCache.txt"
+  "src/CMakeFiles/lmmsobjs_autogen.dir/AutogenUsed.txt"
+  "src/CMakeFiles/lmmsobjs_autogen.dir/ParseCache.txt"
+  "src/lmms_autogen"
+  "src/lmmsobjs_autogen"
+  "tests/ArrayVectorTest_autogen"
+  "tests/AudioBufferTest_autogen"
+  "tests/AutomatableModelTest_autogen"
+  "tests/AutomationTrackTest_autogen"
+  "tests/CMakeFiles/ArrayVectorTest_autogen.dir/AutogenUsed.txt"
+  "tests/CMakeFiles/ArrayVectorTest_autogen.dir/ParseCache.txt"
+  "tests/CMakeFiles/AudioBufferTest_autogen.dir/AutogenUsed.txt"
+  "tests/CMakeFiles/AudioBufferTest_autogen.dir/ParseCache.txt"
+  "tests/CMakeFiles/AutomatableModelTest_autogen.dir/AutogenUsed.txt"
+  "tests/CMakeFiles/AutomatableModelTest_autogen.dir/ParseCache.txt"
+  "tests/CMakeFiles/AutomationTrackTest_autogen.dir/AutogenUsed.txt"
+  "tests/CMakeFiles/AutomationTrackTest_autogen.dir/ParseCache.txt"
+  "tests/CMakeFiles/MathTest_autogen.dir/AutogenUsed.txt"
+  "tests/CMakeFiles/MathTest_autogen.dir/ParseCache.txt"
+  "tests/CMakeFiles/ProjectVersionTest_autogen.dir/AutogenUsed.txt"
+  "tests/CMakeFiles/ProjectVersionTest_autogen.dir/ParseCache.txt"
+  "tests/CMakeFiles/RelativePathsTest_autogen.dir/AutogenUsed.txt"
+  "tests/CMakeFiles/RelativePathsTest_autogen.dir/ParseCache.txt"
+  "tests/CMakeFiles/TimelineTest_autogen.dir/AutogenUsed.txt"
+  "tests/CMakeFiles/TimelineTest_autogen.dir/ParseCache.txt"
+  "tests/MathTest_autogen"
+  "tests/ProjectVersionTest_autogen"
+  "tests/RelativePathsTest_autogen"
+  "tests/TimelineTest_autogen"
+  )
+endif()

@@ -1,0 +1,5 @@
+<RCC>
+	<qresource prefix="artwork/crossovereq">
+		<file alias="artwork.svg">/home/ravic/Git/lmms/plugins/CrossoverEQ/artwork.svg</file>
+	</qresource>
+</RCC>

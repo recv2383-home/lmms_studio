@@ -1,0 +1,58 @@
+{
+	"BUILD_DIR" : "/home/ravic/Git/lmms/build/plugins/Sf2Player/sf2player_autogen",
+	"CMAKE_BINARY_DIR" : "/home/ravic/Git/lmms/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/ravic/Git/lmms/build/plugins/Sf2Player",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/ravic/Git/lmms/plugins/Sf2Player",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/ravic/Git/lmms/plugins/Sf2Player/CMakeLists.txt",
+		"/home/ravic/Git/lmms/cmake/modules/BuildPlugin.cmake",
+		"/home/ravic/Git/lmms/cmake/modules/GenQrc.cmake",
+		"/usr/share/cmake-4.2/Modules/exportheader.cmake.in"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/ravic/Git/lmms",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "/home/ravic/Git/lmms/build/plugins/Sf2Player/sf2player_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "sf2player_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/home/ravic/Git/lmms/plugins/Sf2Player/PatchesDialog.h",
+			"mU",
+			"",
+			null
+		],
+		[ "/home/ravic/Git/lmms/plugins/Sf2Player/Sf2Player.h", "mU", "", null ]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/ravic/Git/lmms/build/plugins/Sf2Player/sf2player_autogen/include",
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 16,
+	"PARSE_CACHE_FILE" : "/home/ravic/Git/lmms/build/plugins/Sf2Player/CMakeFiles/sf2player_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/ravic/Git/lmms/build/plugins/Sf2Player/CMakeFiles/sf2player_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/ravic/Git/lmms/plugins/Sf2Player/PatchesDialog.cpp",
+			"mU",
+			null
+		],
+		[ "/home/ravic/Git/lmms/plugins/Sf2Player/Sf2Player.cpp", "mU", null ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : 
+	[
+		"/home/ravic/Git/lmms/build/plugins/Sf2Player/moc_PatchesDialog.cpp",
+		"/home/ravic/Git/lmms/build/plugins/Sf2Player/moc_Sf2Player.cpp",
+		"/home/ravic/Git/lmms/build/plugins/Sf2Player/qrc_sf2player.cpp"
+	],
+	"UIC_UI_FILES" : [],
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

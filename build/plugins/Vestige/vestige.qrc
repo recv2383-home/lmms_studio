@@ -1,0 +1,11 @@
+<RCC>
+	<qresource prefix="artwork/vestige">
+		<file alias="artwork.svg">/home/ravic/Git/lmms/plugins/Vestige/artwork.svg</file>
+		<file alias="controls.svg">/home/ravic/Git/lmms/plugins/Vestige/controls.svg</file>
+		<file alias="controls_active.svg">/home/ravic/Git/lmms/plugins/Vestige/controls_active.svg</file>
+		<file alias="logo-symbolic.svg">/home/ravic/Git/lmms/plugins/Vestige/logo-symbolic.svg</file>
+		<file alias="logo.svg">/home/ravic/Git/lmms/plugins/Vestige/logo.svg</file>
+		<file alias="select_file.svg">/home/ravic/Git/lmms/plugins/Vestige/select_file.svg</file>
+		<file alias="select_file_active.svg">/home/ravic/Git/lmms/plugins/Vestige/select_file_active.svg</file>
+	</qresource>
+</RCC>

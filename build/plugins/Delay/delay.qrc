@@ -1,0 +1,5 @@
+<RCC>
+	<qresource prefix="artwork/delay">
+		<file alias="artwork.png">/home/ravic/Git/lmms/plugins/Delay/artwork.png</file>
+	</qresource>
+</RCC>

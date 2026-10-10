@@ -1,0 +1,6 @@
+<RCC>
+	<qresource prefix="artwork/kicker">
+		<file alias="artwork.png">/home/ravic/Git/lmms/plugins/Kicker/artwork.png</file>
+		<file alias="logo.png">/home/ravic/Git/lmms/plugins/Kicker/logo.png</file>
+	</qresource>
+</RCC>

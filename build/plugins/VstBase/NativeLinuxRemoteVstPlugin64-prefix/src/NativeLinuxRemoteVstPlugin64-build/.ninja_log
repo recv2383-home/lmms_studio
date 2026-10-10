@@ -1,0 +1,6 @@
+# ninja log v7
+1	833	1791658744172052470	CMakeFiles/NativeLinuxRemoteVstPlugin64.dir/home/ravic/Git/lmms/src/common/RemotePluginBase.cpp.o	7064f5362c03ea4d
+1	1053	1791658744172678605	CMakeFiles/NativeLinuxRemoteVstPlugin64.dir/home/ravic/Git/lmms/src/common/SystemSemaphore.cpp.o	9cdcf137d17fddf
+1	1493	1791658744172359227	CMakeFiles/NativeLinuxRemoteVstPlugin64.dir/home/ravic/Git/lmms/src/common/SharedMemory.cpp.o	db8f82307f9dbbe4
+1	5335	1791658744171556815	CMakeFiles/NativeLinuxRemoteVstPlugin64.dir/home/ravic/Git/lmms/plugins/VstBase/RemoteVstPlugin.cpp.o	4ade5ca3c3d516bb
+5335	5456	1791658749505481114	/home/ravic/Git/lmms/build/plugins/NativeLinuxRemoteVstPlugin64	63ddde89d03b4a9d

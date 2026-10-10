@@ -1,0 +1,5 @@
+<RCC>
+	<qresource prefix="artwork/lv2instrument">
+		<file alias="logo.png">/home/ravic/Git/lmms/plugins/Lv2Instrument/logo.png</file>
+	</qresource>
+</RCC>

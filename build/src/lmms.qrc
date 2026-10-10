@@ -1,0 +1,7 @@
+<RCC>
+	<qresource prefix="/">
+		<file alias="AUTHORS">/home/ravic/Git/lmms/doc/AUTHORS</file>
+		<file alias="LICENSE.txt">/home/ravic/Git/lmms/LICENSE.txt</file>
+		<file alias="CONTRIBUTORS">/home/ravic/Git/lmms/build/CONTRIBUTORS</file>
+	</qresource>
+</RCC>

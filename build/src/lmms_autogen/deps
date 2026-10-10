@@ -1,0 +1,8 @@
+lmms_autogen/timestamp: \
+	/home/ravic/Git/lmms/cmake/modules/GenQrc.cmake \
+	/home/ravic/Git/lmms/src/CMakeLists.txt \
+	/home/ravic/Git/lmms/src/core/main.cpp \
+	/home/ravic/Git/lmms/src/lmmsconfig.h.in \
+	/home/ravic/Git/lmms/src/lmmsversion.h.in \
+	/usr/share/cmake-4.2/Modules/exportheader.cmake.in \
+	/usr/bin/cmake

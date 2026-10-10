@@ -1,0 +1,130 @@
+{
+	"BUILD_DIR" : "/home/ravic/Git/lmms/build/tests/AutomationTrackTest_autogen",
+	"CMAKE_BINARY_DIR" : "/home/ravic/Git/lmms/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/ravic/Git/lmms/build/tests",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/ravic/Git/lmms/tests",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/ravic/Git/lmms/tests/CMakeLists.txt",
+		"/usr/share/cmake-4.2/Modules/CTest.cmake",
+		"/usr/share/cmake-4.2/Modules/CTestUseLaunchers.cmake",
+		"/usr/share/cmake-4.2/Modules/CTestTargets.cmake",
+		"/usr/share/cmake-4.2/Modules/DartConfiguration.tcl.in",
+		"/usr/share/cmake-4.2/Templates/CTestScript.cmake.in"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/ravic/Git/lmms",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "/home/ravic/Git/lmms/build/tests/AutomationTrackTest_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "AutomationTrackTest_autogen/timestamp",
+	"HEADERS" : [],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/ravic/Git/lmms/build/tests/AutomationTrackTest_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/ravic/Git/lmms/build/tests/AutomationTrackTest_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"LMMS_STATIC_DEFINE",
+		"LMMS_TESTING",
+		"NDEBUG",
+		"NOMINMAX",
+		"NO_JACK_METADATA=1",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_SVG_LIB",
+		"QT_TESTCASE_BUILDDIR=\"/home/ravic/Git/lmms/build\"",
+		"QT_TESTLIB_LIB",
+		"QT_TRANSLATIONS_DIR=\"/usr/share/qt5/translations\"",
+		"QT_WIDGETS_LIB",
+		"QT_X11EXTRAS_LIB",
+		"QT_XML_LIB",
+		"USE_WEAK_JACK=1"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/ravic/Git/lmms/build/tests",
+		"/home/ravic/Git/lmms/tests",
+		"/home/ravic/Git/lmms/build/src/lmmsobjs_autogen/include",
+		"/home/ravic/Git/lmms/build/src",
+		"/home/ravic/Git/lmms/build",
+		"/home/ravic/Git/lmms/build/include",
+		"/home/ravic/Git/lmms",
+		"/home/ravic/Git/lmms/include",
+		"/usr/include/suil-0",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt5/QtXml",
+		"/usr/include/lilv-0",
+		"/usr/include/x86_64-linux-gnu/qt5/QtSvg",
+		"/usr/include/x86_64-linux-gnu/qt5/QtX11Extras",
+		"/usr/include/SDL2",
+		"/home/ravic/Git/lmms/src/3rdparty/weakjack/weakjack",
+		"/home/ravic/Git/lmms/src/3rdparty/jack2/common",
+		"/usr/include/serd-0",
+		"/usr/include/sord-0",
+		"/usr/include/zix-0",
+		"/usr/include/sratom-0",
+		"/home/ravic/Git/lmms/src/3rdparty/ringbuffer/include",
+		"/home/ravic/Git/lmms/build/src/3rdparty",
+		"/usr/include/x86_64-linux-gnu/qt5/QtTest",
+		"/usr/include",
+		"/usr/include/c++/15",
+		"/usr/include/x86_64-linux-gnu/c++/15",
+		"/usr/include/c++/15/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/15/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-std=gnu++20",
+		"-w",
+		"-dM",
+		"-E",
+		"/usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/ravic/Git/lmms/build/tests/AutomationTrackTest_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/home/ravic/Git/lmms/build/tests/ArrayVectorTest_autogen/mocs_compilation.cpp",
+		"/home/ravic/Git/lmms/build/tests/AudioBufferTest_autogen/mocs_compilation.cpp",
+		"/home/ravic/Git/lmms/build/tests/AutomatableModelTest_autogen/mocs_compilation.cpp",
+		"/home/ravic/Git/lmms/build/tests/MathTest_autogen/mocs_compilation.cpp",
+		"/home/ravic/Git/lmms/build/tests/ProjectVersionTest_autogen/mocs_compilation.cpp",
+		"/home/ravic/Git/lmms/build/tests/RelativePathsTest_autogen/mocs_compilation.cpp",
+		"/home/ravic/Git/lmms/build/tests/TimelineTest_autogen/mocs_compilation.cpp"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 16,
+	"PARSE_CACHE_FILE" : "/home/ravic/Git/lmms/build/tests/CMakeFiles/AutomationTrackTest_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/ravic/Git/lmms/build/tests/CMakeFiles/AutomationTrackTest_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/ravic/Git/lmms/tests/src/tracks/AutomationTrackTest.cpp",
+			"Mu",
+			null
+		]
+	],
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

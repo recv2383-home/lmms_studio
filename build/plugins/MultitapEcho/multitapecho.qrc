@@ -1,0 +1,6 @@
+<RCC>
+	<qresource prefix="artwork/multitapecho">
+		<file alias="artwork.png">/home/ravic/Git/lmms/plugins/MultitapEcho/artwork.png</file>
+		<file alias="graph_bg.png">/home/ravic/Git/lmms/plugins/MultitapEcho/graph_bg.png</file>
+	</qresource>
+</RCC>

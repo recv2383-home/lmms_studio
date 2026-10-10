@@ -1,0 +1,5 @@
+<RCC>
+	<qresource prefix="artwork/lv2effect">
+		<file alias="logo.png">/home/ravic/Git/lmms/plugins/Lv2Effect/logo.png</file>
+	</qresource>
+</RCC>

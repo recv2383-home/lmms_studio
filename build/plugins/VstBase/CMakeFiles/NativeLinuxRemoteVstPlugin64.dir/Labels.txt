@@ -1,0 +1,13 @@
+# Target labels
+ NativeLinuxRemoteVstPlugin64
+# Source files and their labels
+/home/ravic/Git/lmms/build/plugins/VstBase/CMakeFiles/NativeLinuxRemoteVstPlugin64
+/home/ravic/Git/lmms/build/plugins/VstBase/CMakeFiles/NativeLinuxRemoteVstPlugin64.rule
+/home/ravic/Git/lmms/build/plugins/VstBase/CMakeFiles/NativeLinuxRemoteVstPlugin64-complete.rule
+/home/ravic/Git/lmms/build/plugins/VstBase/NativeLinuxRemoteVstPlugin64-prefix/src/NativeLinuxRemoteVstPlugin64-stamp/NativeLinuxRemoteVstPlugin64-build.rule
+/home/ravic/Git/lmms/build/plugins/VstBase/NativeLinuxRemoteVstPlugin64-prefix/src/NativeLinuxRemoteVstPlugin64-stamp/NativeLinuxRemoteVstPlugin64-configure.rule
+/home/ravic/Git/lmms/build/plugins/VstBase/NativeLinuxRemoteVstPlugin64-prefix/src/NativeLinuxRemoteVstPlugin64-stamp/NativeLinuxRemoteVstPlugin64-download.rule
+/home/ravic/Git/lmms/build/plugins/VstBase/NativeLinuxRemoteVstPlugin64-prefix/src/NativeLinuxRemoteVstPlugin64-stamp/NativeLinuxRemoteVstPlugin64-install.rule
+/home/ravic/Git/lmms/build/plugins/VstBase/NativeLinuxRemoteVstPlugin64-prefix/src/NativeLinuxRemoteVstPlugin64-stamp/NativeLinuxRemoteVstPlugin64-mkdir.rule
+/home/ravic/Git/lmms/build/plugins/VstBase/NativeLinuxRemoteVstPlugin64-prefix/src/NativeLinuxRemoteVstPlugin64-stamp/NativeLinuxRemoteVstPlugin64-patch.rule
+/home/ravic/Git/lmms/build/plugins/VstBase/NativeLinuxRemoteVstPlugin64-prefix/src/NativeLinuxRemoteVstPlugin64-stamp/NativeLinuxRemoteVstPlugin64-update.rule
