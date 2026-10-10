@@ -154,6 +154,7 @@ public slots:
 	bool saveProjectAsNewVersion();
 	void saveProjectAsDefaultTemplate();
 	void showSettingsDialog();
+	void showVstPluginManager();
 	void aboutLMMS();
 	void help();
 	void toggleAutomationEditorWin();

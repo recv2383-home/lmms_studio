@@ -72,6 +72,7 @@
 #include "ToolButton.h"
 #include "ToolPlugin.h"
 #include "VersionedSaveDialog.h"
+#include "VstPluginManager.h"
 
 #include "lmmsversion.h"
 
@@ -365,6 +366,12 @@ void MainWindow::finalize()
 		connect( m_toolsMenu, SIGNAL(triggered(QAction*)),
 					this, SLOT(showTool(QAction*)));
 	}
+	else
+	{
+		menuBar()->addMenu( m_toolsMenu )->setText( tr( "&Tools" ) );
+	}
+	m_toolsMenu->addAction(embed::getIconPixmap("plugins"), tr("VST Plugin Manager…"),
+		this, SLOT(showVstPluginManager()));
 
 
 	// help-popup-menu
@@ -892,6 +899,12 @@ void MainWindow::showSettingsDialog()
 }
 
 
+void MainWindow::showVstPluginManager()
+{
+	VstPluginManager(this).exec();
+}
+
+
 
 
 void MainWindow::aboutLMMS()
@@ -1374,7 +1387,12 @@ void MainWindow::timerEvent( QTimerEvent * _te)
 
 void MainWindow::showTool( QAction * _idx )
 {
-	PluginView * p = m_tools[m_toolsMenu->actions().indexOf( _idx )];
+	const auto index = m_toolsMenu->actions().indexOf( _idx );
+	if (index < 0 || index >= m_tools.size())
+	{
+		return;
+	}
+	PluginView * p = m_tools[index];
 	p->show();
 	p->parentWidget()->show();
 	p->setFocus();

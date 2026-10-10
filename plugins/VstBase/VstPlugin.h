@@ -162,6 +162,7 @@ private:
 	QString m_vendorString;
 	QString m_productString;
 	QString m_currentProgramName;
+	bool m_uiVisible = false;
 	QString m_allProgramNames;
 	std::vector<QString> m_allParameterLabels;
 	std::vector<QString> m_allParameterDisplays;

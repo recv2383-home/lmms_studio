@@ -3141,12 +3141,25 @@ void PianoRoll::paintNoteAt(int x, int y)
 		return;
 	}
 
+	// Pencil painting creates notes without going through the normal note-move
+	// preview path. Stop the previous preview before starting the new pitch.
+	for (Note *playing : m_midiClip->notes())
+	{
+		if (playing->isPlaying())
+		{
+			m_midiClip->instrumentTrack()->pianoModel()->handleKeyRelease(playing->key());
+			pauseChordNotes(playing->key());
+			playing->setIsPlaying(false);
+		}
+	}
+
 	for (Note *note : m_midiClip->notes())
 	{
 		if (note->key() == key && note->pos() <= tick && note->endPos() > tick)
 		{
 			m_lastPencilTick = tick;
 			m_lastPencilKey = key;
+			testPlayNote(note);
 			return;
 		}
 	}
@@ -3155,8 +3168,9 @@ void PianoRoll::paintNoteAt(int x, int y)
 	note.setSelected(true);
 	note.setVolume(m_lastNoteVolume);
 	note.setPanning(m_lastNotePanning);
-	m_midiClip->addNote(note);
+	Note *paintedNote = m_midiClip->addNote(note);
 	m_midiClip->dataChanged();
+	testPlayNote(paintedNote);
 	Engine::getSong()->setModified();
 	m_lastPencilTick = tick;
 	m_lastPencilKey = key;

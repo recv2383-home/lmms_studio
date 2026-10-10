@@ -160,4 +160,5 @@
 #include "DGKZTCOIDE/moc_TrackRenameLineEdit.cpp"
 #include "DGKZTCOIDE/moc_TrackView.cpp"
 #include "DGKZTCOIDE/moc_VersionedSaveDialog.cpp"
+#include "DGKZTCOIDE/moc_VstPluginManager.cpp"
 #include "DGKZTCOIDE/moc_VstSyncController.cpp"

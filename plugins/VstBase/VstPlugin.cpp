@@ -128,7 +128,9 @@ VstPlugin::VstPlugin( const QString & _plugin ) :
 	m_plugin( PathUtil::toAbsolute(_plugin) ),
 	m_pluginWindowID( 0 ),
 	m_embedMethod( (gui::getGUI() != nullptr)
-			? ConfigManager::inst()->vstEmbedMethod()
+			? (QFileInfo(PathUtil::toAbsolute(_plugin)).suffix().compare("so", Qt::CaseInsensitive) == 0
+				? QStringLiteral("none")
+				: ConfigManager::inst()->vstEmbedMethod())
 			: "headless" ),
 	m_version( 0 ),
 	m_currentProgram()
@@ -314,14 +316,8 @@ void VstPlugin::saveSettings( QDomDocument & _doc, QDomElement & _this )
 
 void VstPlugin::toggleUI()
 {
-	if ( m_embedMethod == "none" )
-	{
-		RemotePlugin::toggleUI();
-	}
-	else if (pluginWidget())
-	{
-		toggleEditorVisibility();
-	}
+	if (m_uiVisible) { hideUI(); }
+	else { showUI(); }
 }
 
 
@@ -684,6 +680,7 @@ void VstPlugin::showUI()
 	if ( m_embedMethod == "none" )
 	{
 		RemotePlugin::showUI();
+		m_uiVisible = true;
 	}
 	else if ( m_embedMethod != "headless" )
 	{
@@ -691,6 +688,7 @@ void VstPlugin::showUI()
 			qWarning() << "VstPlugin::showUI called before VstPlugin::createUI";
 		}
 		toggleEditorVisibility( true );
+		m_uiVisible = true;
 	}
 }
 
@@ -699,10 +697,12 @@ void VstPlugin::hideUI()
 	if ( m_embedMethod == "none" )
 	{
 		RemotePlugin::hideUI();
+		m_uiVisible = false;
 	}
 	else if ( pluginWidget() != nullptr )
 	{
 		toggleEditorVisibility( false );
+		m_uiVisible = false;
 	}
 }
 

@@ -84,6 +84,8 @@ PluginBrowser::PluginBrowser( QWidget * _parent ) :
 
 	connect( searchBar, SIGNAL( textEdited( const QString& ) ),
 			this, SLOT( onFilterChanged( const QString& ) ) );
+	connect( ConfigManager::inst(), &ConfigManager::valueChanged, this,
+		&PluginBrowser::onVstPathsChanged );
 
 	view_layout->addWidget( hint );
 	view_layout->addWidget( searchBar );
@@ -97,6 +99,16 @@ PluginBrowser::PluginBrowser( QWidget * _parent ) :
 
 	// Hide empty roots
 	updateRootVisibilities();
+}
+
+void PluginBrowser::onVstPathsChanged(QString cls, QString attribute, QString value)
+{
+	Q_UNUSED(value);
+	if (cls == "vst" && attribute == "searchpaths")
+	{
+		addPlugins();
+		updateRootVisibilities();
+	}
 }
 
 
@@ -333,6 +345,24 @@ void PluginDescWidget::mousePressEvent( QMouseEvent * _me )
 			QString::fromUtf8(m_pluginKey.desc->name), m_logo, this);
 		leaveEvent( _me );
 	}
+}
+
+
+void PluginDescWidget::mouseDoubleClickEvent(QMouseEvent* event)
+{
+	if (!m_presetPath.isEmpty() && event->button() == Qt::LeftButton)
+	{
+		DataFile dataFile(m_presetPath);
+		if (!dataFile.head().isNull())
+		{
+			auto track = dynamic_cast<InstrumentTrack*>(
+				Track::create(Track::Type::Instrument, Engine::getSong()));
+			track->loadPreset(dataFile.content().toElement());
+		}
+		event->accept();
+		return;
+	}
+	QWidget::mouseDoubleClickEvent(event);
 }
 
 

@@ -85,6 +85,7 @@ SET(LMMS_SRCS
 	gui/modals/RenameDialog.cpp
 	gui/modals/SetupDialog.cpp
 	gui/modals/VersionedSaveDialog.cpp
+	gui/modals/VstPluginManager.cpp
 
 	gui/tracks/AutomationTrackView.cpp
 	gui/tracks/FadeButton.cpp

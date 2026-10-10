@@ -1759,6 +1759,12 @@
 			null
 		],
 		[
+			"/home/ravic/Git/lmms/include/VstPluginManager.h",
+			"MU",
+			"DGKZTCOIDE/moc_VstPluginManager.cpp",
+			null
+		],
+		[
 			"/home/ravic/Git/lmms/include/VstSyncController.h",
 			"MU",
 			"DGKZTCOIDE/moc_VstSyncController.cpp",
@@ -2246,6 +2252,11 @@
 		[ "/home/ravic/Git/lmms/src/gui/modals/SetupDialog.cpp", "MU", null ],
 		[
 			"/home/ravic/Git/lmms/src/gui/modals/VersionedSaveDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/ravic/Git/lmms/src/gui/modals/VstPluginManager.cpp",
 			"MU",
 			null
 		],

@@ -334,6 +334,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     "/home/ravic/Git/lmms/include/TrackView.h"
     "/home/ravic/Git/lmms/include/ValueBuffer.h"
     "/home/ravic/Git/lmms/include/VersionedSaveDialog.h"
+    "/home/ravic/Git/lmms/include/VstPluginManager.h"
     "/home/ravic/Git/lmms/include/VstSyncController.h"
     "/home/ravic/Git/lmms/include/VstSyncData.h"
     "/home/ravic/Git/lmms/include/aeffectx.h"
