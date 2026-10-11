@@ -5,18 +5,18 @@
   <MidiJack device="lmms"/>
   <MidiSndio device=""/>
   <Midialsaseq device="default"/>
-  <app sololegacybehavior="0" disablebackup="0" openlastproject="0" loopmarkermode="dual" nommpz="0" configured="1" language="en"/>
-  <audioalsa channels="2" device="null"/>
-  <audioengine sanitizemix="1" framesperaudiobuffer="256" audiodev="SDL (Simple DirectMedia Layer)" samplerate="44100" mididev="ALSA-Sequencer (Advanced Linux Sound Architecture)"/>
-  <audiojack input1="" input2="" clientname="lmms" output2="" output1=""/>
-  <audiopa channels="2" device="default"/>
-  <audioportaudio outputchannels="0" backend="" inputdevice="" inputchannels="0" outputdevice=""/>
+  <app loopmarkermode="dual" sololegacybehavior="0" openlastproject="0" configured="1" language="en" nommpz="0" disablebackup="0"/>
+  <audioalsa device="null" channels="2"/>
+  <audioengine sanitizemix="1" audiodev="SDL (Simple DirectMedia Layer)" framesperaudiobuffer="256" mididev="ALSA-Sequencer (Advanced Linux Sound Architecture)" samplerate="44100"/>
+  <audiojack output2="" input2="" clientname="lmms" output1="" input1=""/>
+  <audiopa device="default" channels="2"/>
+  <audioportaudio inputdevice="" outputdevice="" inputchannels="0" outputchannels="0" backend=""/>
   <audiosdl inputdevice="" device=""/>
-  <audiosndio channels="2" device=""/>
+  <audiosndio device="" channels="2"/>
   <midi midiautoassign="none" autoquantize="0"/>
-  <paths theme="data:/themes/default/" ladspadir="/home/ravic/Documents/lmms/plugins/ladspa/" vstdir="/home/ravic/Documents/lmms/plugins/vst/" workingdir="/home/ravic/Documents/lmms/" backgroundtheme="" sf2dir="/home/ravic/Documents/lmms/samples/soundfonts/" gigdir="/home/ravic/Documents/lmms/samples/gig/" defaultsf2=""/>
+  <paths vstdir="/home/ravic/Documents/lmms/plugins/vst/" workingdir="/home/ravic/Documents/lmms/" gigdir="/home/ravic/Documents/lmms/samples/gig/" ladspadir="/home/ravic/Documents/lmms/plugins/ladspa/" sf2dir="/home/ravic/Documents/lmms/samples/soundfonts/" defaultsf2="" backgroundtheme="" theme="data:/themes/default/"/>
   <tooltips disabled="0"/>
-  <ui mixerchanneldeletionwarning="1" saveinterval="2" enablerunningautosave="0" songeditorsnap="5" smoothscroll="0" pianorollquantization="5" pianorollsnap="0" displaywaveform="0" detachbehavior="show" animateafp="1" pianorollnotelength="0" pianorollzoomvertical="2" vstembedmethod="qt" trackdeletionwarning="1" sidebaronright="0" showfaderticks="0" enableautosave="1" vstalwaysontop="0" printnotelabels="0" letpreviewsfinish="0" pianorollzoom="2" disableautoquit="1" songeditorzoom="151" oneinstrumenttrackwindow="0" autoscroll="stepped" compacttrackbuttons="0"/>
+  <ui vstembedmethod="qt" detachbehavior="show" trackdeletionwarning="1" mixerchanneldeletionwarning="1" enableautosave="1" pianorollnotelength="0" disableautoquit="1" songeditorzoom="151" pianorollquantization="5" oneinstrumenttrackwindow="0" vstalwaysontop="0" compacttrackbuttons="0" saveinterval="2" animateafp="1" songeditorsnap="5" showfaderticks="0" displaywaveform="0" enablerunningautosave="0" pianorollzoom="2" letpreviewsfinish="0" pianorollzoomvertical="2" smoothscroll="0" pianorollsnap="0" sidebaronright="0" printnotelabels="0" autoscroll="stepped"/>
   <vst searchpaths="/lib/vst:/usr/lib/vst"/>
   <recentfiles>
     <file path="data:/projects/templates/default.mpt"/>
